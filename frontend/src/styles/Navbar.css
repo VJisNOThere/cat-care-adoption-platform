@@ -1,0 +1,39 @@
+/* Styles for the navbar */
+.navbar {
+    display: flex; /* Use flexbox layout for the navbar */
+    justify-content: space-between; /* Space out child elements (logo and links) */
+    align-items: center; /* Vertically center items within the navbar */
+    background-color: #fff; /* Set background color to white */
+    padding: 10px 20px; /* Add padding for spacing inside the navbar */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+}
+
+/* Styles for the logo inside the navbar */
+.navbar-logo img {
+    height: 50px; /* Set a fixed height for the logo image */
+}
+
+/* Styles for the list of links in the navbar */
+.navbar-links {
+    list-style: none; /* Remove default list styling (bullets) */
+    display: flex; /* Use flexbox to lay out links in a row */
+    gap: 20px; /* Add space between each link */
+}
+
+/* Styles for each link item */
+.navbar-links li {
+    margin: 0; /* Remove default margin from list items */
+}
+
+/* Styles for the links */
+.navbar-links a {
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Set text color to a dark gray */
+    font-weight: bold; /* Make the link text bold */
+    transition: color 0.3s; /* Smooth transition for color change on hover */
+}
+
+/* Styles for links on hover */
+.navbar-links a:hover {
+    color: #007bff; /* Change color to blue on hover */
+}

@@ -1,0 +1,68 @@
+/* Styles for the comment section */
+.comment-section {
+  border-top: 1px solid #ddd; /* Light gray border at the top */
+  padding-top: 20px; /* Space above the comment section */
+  margin-top: 20px; /* Space above the comment section */
+}
+
+/* Styles for the comment section heading */
+.comment-section h3 {
+  margin-bottom: 15px; /* Space below the heading */
+}
+
+/* Styles for the comment list */
+.comment-list {
+  list-style-type: none; /* Remove default list styling */
+  padding: 0; /* Remove default padding */
+}
+
+/* Styles for each individual comment */
+.comment {
+  border-bottom: 1px solid #eee; /* Light gray border below each comment */
+  padding: 10px 0; /* Vertical padding for comments */
+}
+
+/* Styles for the comment author's name */
+.comment-author {
+  font-weight: bold; /* Make the author's name bold */
+}
+
+/* Styles for the comment text */
+.comment-text {
+  margin: 5px 0; /* Space above and below the comment text */
+}
+
+/* Styles for the comment date */
+.comment-date {
+  font-size: 0.8em; /* Smaller font size for the date */
+  color: #888; /* Gray color for the date text */
+}
+
+/* Styles for the comment form */
+.comment-form {
+  margin-top: 20px; /* Space above the comment form */
+}
+
+/* Styles for the textarea in the comment form */
+.comment-form textarea {
+  width: 100%; /* Full width of the parent element */
+  padding: 10px; /* Padding inside the textarea */
+  margin-bottom: 10px; /* Space below the textarea */
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 4px; /* Rounded corners */
+}
+
+/* Styles for the submit button */
+.submit-button {
+  background-color: #007bff; /* Bootstrap primary blue color */
+  color: #fff; /* White text color */
+  padding: 10px 15px; /* Padding inside the button */
+  border: none; /* No border */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+/* Styles for the submit button on hover */
+.submit-button:hover {
+  background-color: #0056b3; /* Darker blue when hovered */
+}

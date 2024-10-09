@@ -1,0 +1,57 @@
+/* Style for the cat card container */
+.cat-card {
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 8px; /* Rounded corners */
+    overflow: hidden; /* Prevents content overflow */
+    width: 300px; /* Fixed width for the card */
+    margin: 20px; /* Space around each card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for a 3D effect */
+    transition: transform 0.3s; /* Smooth transform transition on hover */
+}
+
+/* Hover effect for the cat card */
+.cat-card:hover {
+    transform: translateY(-5px); /* Slightly lifts the card on hover */
+}
+
+/* Style for the cat image */
+.cat-image {
+    width: 100%; /* Image takes full width of the card */
+    height: 200px; /* Fixed height for the image */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+}
+
+/* Style for the details section of the cat card */
+.cat-details {
+    padding: 15px; /* Padding inside the details section */
+    text-align: left; /* Aligns text to the left */
+}
+
+/* Style for the cat name heading */
+.cat-details h3 {
+    margin: 0 0 10px; /* No margin on top, 10px margin below */
+    color: #333; /* Dark gray color for the heading */
+}
+
+/* Style for the paragraph text in the details section */
+.cat-details p {
+    margin: 5px 0; /* 5px margin on top and bottom */
+    color: #555; /* Medium gray color for the paragraph text */
+}
+
+/* Style for the "View Details" button */
+.view-details-button {
+    display: inline-block; /* Makes the button respect margins */
+    margin-top: 10px; /* Space above the button */
+    padding: 8px 12px; /* Padding inside the button */
+    background-color: #007bff; /* Bootstrap primary color (blue) */
+    color: #fff; /* White text color */
+    text-decoration: none; /* No underline for the link */
+    border-radius: 4px; /* Rounded corners for the button */
+    transition: background-color 0.3s; /* Smooth background color transition on hover */
+}
+
+/* Hover effect for the "View Details" button */
+.view-details-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}

@@ -1,0 +1,55 @@
+/* Main dashboard container styles */
+.dashboard {
+  padding: 20px; /* Add padding around the dashboard */
+  text-align: center; /* Center align text within the dashboard */
+}
+
+/* Styles for the main heading */
+.dashboard h1 {
+  font-size: 2.5em; /* Set font size for the main heading */
+  margin-bottom: 20px; /* Add space below the heading */
+}
+
+/* Container for dashboard cards */
+.dashboard-cards {
+  display: flex; /* Use flexbox for layout */
+  flex-wrap: wrap; /* Allow cards to wrap to the next line */
+  justify-content: center; /* Center the cards horizontally */
+  gap: 20px; /* Add space between cards */
+}
+
+/* Styles for individual cards */
+.card {
+  background-color: #fff; /* Set background color to white */
+  padding: 20px; /* Add padding inside the card */
+  width: 250px; /* Set a fixed width for the card */
+  border-radius: 10px; /* Round the corners of the card */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+  transition: transform 0.2s; /* Smooth transition for hover effects */
+}
+
+/* Hover effect for cards */
+.card:hover {
+  transform: translateY(-10px); /* Raise the card slightly on hover */
+}
+
+/* Styles for card titles */
+.card h2 {
+  font-size: 1.5em; /* Set font size for card titles */
+  margin-bottom: 10px; /* Add space below the title */
+}
+
+/* Styles for text within cards (e.g., values) */
+.card p {
+  font-size: 2em; /* Set font size for paragraph text */
+  color: #007bff; /* Set text color to a blue shade */
+}
+
+/* Styles for loading and error messages */
+.loading,
+.error {
+  font-size: 1.5em; /* Set font size for loading/error messages */
+  color: #007bff; /* Set text color to the same blue shade */
+  text-align: center; /* Center align text for loading/error messages */
+  margin-top: 20px; /* Add space above the messages */
+}

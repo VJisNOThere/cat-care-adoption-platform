@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.-->
+
+<head>
+    <!-- Character encoding for the document -->
+    <meta charset="UTF-8">
+    <!-- Responsive design settings -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Care and Adoption Platform</title>
+    <!-- Link to the external stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Preconnect to Google Fonts for faster loading -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Link to the Google Fonts stylesheet -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <!-- Navigation bar for the website -->
+        <nav class="navbar">
+            <div class="logo">
+                <!-- Logo linking to the homepage -->
+                <a href="">CatCare</a>
+            </div>
+            <ul class="nav-links">
+                <!-- Navigation links -->
+                <li><a href="#about">About Us</a></li>
+                <li><a href="../src/pages/Dashboard.js">Adopt a Cat</a></li>
+                <li><a href="../src/pages/WellnessContent.js">Cat Wellness</a></li>
+                <li><a href="../src/pages/Login.js">Login</a></li>
+                <li><a href="../src/pages/Register.js">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <!-- Main heading for the hero section -->
+            <h1>Welcome to CatCare</h1>
+            <!-- Subheading or description -->
+            <p>Your go-to platform for adopting cats and learning how to care for them.</p>
+            <!-- Button linking to the adopt section -->
+            <a href="#adopt" class="btn">Find Your Cat</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <!-- About section with information about the platform -->
+        <h2>About CatCare</h2>
+        <p>
+            CatCare is a comprehensive web-based platform dedicated to helping people find and adopt cats while providing all the resources they need to care for their new pets.
+            Our mission is to make cat adoption easy and to promote responsible pet ownership through education and community support.
+        </p>
+    </section>
+
+    <section id="adopt" class="adopt">
+        <!-- Section for adopting cats -->
+        <h2>Adopt a Cat</h2>
+        <p>Browse our profiles of cats looking for a forever home. Each profile includes details about the cat's personality, health, and more to help you find the perfect match.</p>
+        <!-- Button linking to the adopt page -->
+        <a href="../src/pages/Dashboard.js" class="btn">Browse Cats</a>
+    </section>
+
+    <section id="wellness" class="wellness">
+        <!-- Section for cat wellness information -->
+        <h2>Cat Wellness</h2>
+        <p>Learn about cat care, nutrition, grooming, and behavior with our collection of articles and videos. We provide everything you need to ensure your cat stays happy and healthy.</p>
+        <!-- Button linking to wellness page -->
+        <a href="../src/pages/WellnessContent.js" class="btn">Learn More</a>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <!-- Footer content with copyright notice -->
+            <p>&copy; 2024 CatCare. All Rights Reserved.</p>
+            <ul class="social-links">
+                <!-- Social media links -->
+                <li><a href="#"><img src="images/facebook-icon.png" alt="Facebook"></a></li>
+                <li><a href="#"><img src="images/twitter-icon.png" alt="Twitter"></a></li>
+                <li><a href="#"><img src="images/instagram-icon.png" alt="Instagram"></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- Link to external JavaScript file -->
+    <script src="app.js"></script>
+</body>
+
+</html>

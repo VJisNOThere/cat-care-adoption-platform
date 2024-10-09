@@ -1,0 +1,58 @@
+/* Styles for the footer */
+.footer {
+  background-color: #333; /* Dark background color for the footer */
+  color: #fff; /* White text color */
+  padding: 20px 0; /* Vertical padding */
+  text-align: center; /* Center text alignment */
+}
+
+/* Container for footer content */
+.footer-content {
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Arrange items in a column */
+  align-items: center; /* Center items horizontally */
+  gap: 20px; /* Space between items */
+}
+
+/* Logo styles */
+.footer-logo img {
+  height: 40px; /* Set the height of the footer logo */
+}
+
+/* Styles for footer links */
+.footer-links ul {
+  list-style: none; /* Remove default list styles */
+  padding: 0; /* Remove default padding */
+  display: flex; /* Use flexbox for the list items */
+  gap: 20px; /* Space between links */
+}
+
+/* Styles for individual footer link */
+.footer-links a {
+  text-decoration: none; /* Remove underline from links */
+  color: #fff; /* White text color for links */
+  transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+/* Hover effect for footer links */
+.footer-links a:hover {
+  color: #007bff; /* Change link color on hover */
+}
+
+/* Styles for social media links */
+.footer-social a {
+  margin: 0 10px; /* Horizontal margin between social links */
+  color: #fff; /* White text color for social links */
+  text-decoration: none; /* Remove underline from links */
+  transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+/* Hover effect for social media links */
+.footer-social a:hover {
+  color: #007bff; /* Change color on hover */
+}
+
+/* Styles for the footer bottom section */
+.footer-bottom {
+  margin-top: 20px; /* Space above the footer bottom section */
+}

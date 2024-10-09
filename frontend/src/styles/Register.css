@@ -1,0 +1,67 @@
+/* Styles for the registration container */
+.register-container {
+    max-width: 400px; /* Set a maximum width for the container */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; /* Add padding inside the container */
+    border-radius: 10px; /* Round the corners of the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+    text-align: center; /* Center align text inside the container */
+    background-color: #fff; /* Set background color to white */
+}
+
+/* Styles for the main heading inside the registration container */
+.register-container h1 {
+    font-size: 2.5em; /* Increase font size for the heading */
+    margin-bottom: 20px; /* Add space below the heading */
+}
+
+/* Styles for the registration form */
+.register-form {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Arrange form elements vertically */
+    gap: 15px; /* Add space between form elements */
+}
+
+/* Styles for individual form groups */
+.form-group {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Arrange label and input vertically */
+    align-items: flex-start; /* Align items to the start of the flex container */
+}
+
+/* Styles for labels in the form */
+label {
+    margin-bottom: 5px; /* Add space below the label */
+    font-weight: bold; /* Make the label text bold */
+}
+
+/* Styles for input fields */
+input {
+    width: 100%; /* Make input fields take full width of their container */
+    padding: 10px; /* Add padding inside input fields */
+    border-radius: 5px; /* Round the corners of input fields */
+    border: 1px solid #ddd; /* Add a light border around input fields */
+}
+
+/* Styles for the register button */
+.register-button {
+    padding: 10px; /* Add padding inside the button */
+    border: none; /* Remove border around the button */
+    border-radius: 5px; /* Round the corners of the button */
+    background-color: #007bff; /* Set background color to a blue shade */
+    color: #fff; /* Set text color to white */
+    font-size: 1.2em; /* Increase font size of button text */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s; /* Add transition effect for background color */
+}
+
+/* Styles for the button on hover state */
+.register-button:hover {
+    background-color: #0056b3; /* Darken background color on hover */
+}
+
+/* Styles for displaying error messages */
+.error-message {
+    color: #ff0000; /* Set text color to red for error messages */
+    font-size: 1em; /* Set font size for error messages */
+}

@@ -1,0 +1,55 @@
+/* Styles for the overall cat profile container */
+.cat-profile {
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Center align children horizontally */
+  padding: 20px; /* Add padding around the container */
+}
+
+/* Styles for the container holding cat information */
+.cat-info {
+  display: flex; /* Use flexbox for layout */
+  flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+  gap: 20px; /* Space between items */
+  max-width: 800px; /* Limit the maximum width of the container */
+  width: 100%; /* Allow the container to take full width */
+  border: 1px solid #ddd; /* Light gray border around the container */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px; /* Padding inside the container */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth effect */
+}
+
+/* Styles for the cat image */
+.cat-image {
+  width: 100%; /* Make the image responsive */
+  max-width: 300px; /* Limit the maximum width of the image */
+  border-radius: 10px; /* Rounded corners for the image */
+  object-fit: cover; /* Cover the entire area, maintaining aspect ratio */
+}
+
+/* Styles for the details section of the cat */
+.cat-details {
+  flex: 1; /* Allow this section to grow and fill available space */
+}
+
+/* Styles for the cat's name or title */
+.cat-details h1 {
+  font-size: 2.5em; /* Larger font size for prominence */
+  margin-bottom: 10px; /* Space below the heading */
+}
+
+/* Styles for paragraphs within the cat details */
+.cat-details p {
+  font-size: 1.1em; /* Slightly larger font size for readability */
+  margin: 5px 0; /* Space above and below the paragraph */
+}
+
+/* Styles for loading, error, and no cat messages */
+.loading,
+.error,
+.no-cat {
+  font-size: 1.5em; /* Font size for messages */
+  color: #007bff; /* Blue color for visibility */
+  text-align: center; /* Center align text */
+  margin-top: 20px; /* Space above the message */
+}

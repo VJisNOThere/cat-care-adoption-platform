@@ -1,0 +1,67 @@
+/* Container for the login form */
+.login-container {
+  max-width: 400px; /* Set the maximum width of the container */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 20px; /* Add padding inside the container */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  text-align: center; /* Center text inside the container */
+  background-color: #fff; /* Background color for the container */
+}
+
+/* Heading style within the login container */
+.login-container h1 {
+  font-size: 2.5em; /* Increase the font size for the heading */
+  margin-bottom: 20px; /* Space below the heading */
+}
+
+/* Style for the login form */
+.login-form {
+  display: flex; /* Use flexbox layout */
+  flex-direction: column; /* Stack children vertically */
+  gap: 15px; /* Space between form elements */
+}
+
+/* Style for individual form groups */
+.form-group {
+  display: flex; /* Use flexbox layout */
+  flex-direction: column; /* Stack label and input vertically */
+  align-items: flex-start; /* Align items to the start (left) */
+}
+
+/* Style for labels */
+label {
+  margin-bottom: 5px; /* Space below the label */
+  font-weight: bold; /* Bold font for labels */
+}
+
+/* Style for input fields */
+input {
+  width: 100%; /* Full width input fields */
+  padding: 10px; /* Inner padding for the input */
+  border-radius: 5px; /* Rounded corners for inputs */
+  border: 1px solid #ddd; /* Light border for inputs */
+}
+
+/* Style for the login button */
+.login-button {
+  padding: 10px; /* Inner padding for the button */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners for the button */
+  background-color: #007bff; /* Primary button color */
+  color: #fff; /* Text color for the button */
+  font-size: 1.2em; /* Larger font size for the button text */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+/* Style for button hover effect */
+.login-button:hover {
+  background-color: #0056b3; /* Darker blue when hovered */
+}
+
+/* Style for error messages */
+.error-message {
+  color: #ff0000; /* Red color for error messages */
+  font-size: 1em; /* Font size for error messages */
+}

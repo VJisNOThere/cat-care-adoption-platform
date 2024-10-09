@@ -1,0 +1,126 @@
+/* Reset some default styles */
+* {
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+  font-family: Arial, sans-serif; /* Set a default font for the application */
+}
+
+/* App Container */
+.App {
+  text-align: center; /* Center text within the App component */
+  min-height: 100vh; /* Set minimum height to fill the viewport */
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Stack children vertically */
+  justify-content: space-between; /* Space between children elements */
+  background-color: #f9f9f9; /* Set background color for the App */
+  color: #333; /* Set text color */
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: #4caf50; /* Set background color for the navbar */
+  padding: 1rem; /* Add padding around the navbar */
+  color: #fff; /* Set text color for navbar */
+}
+
+.navbar a {
+  color: #fff; /* Set link color */
+  text-decoration: none; /* Remove underline from links */
+  margin: 0 15px; /* Add horizontal margin between links */
+  font-weight: bold; /* Make links bold */
+}
+
+.navbar a:hover {
+  text-decoration: underline; /* Underline links on hover */
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #333; /* Set background color for the footer */
+  color: #fff; /* Set text color for footer */
+  padding: 1rem; /* Add padding around footer */
+  text-align: center; /* Center text in the footer */
+  margin-top: 2rem; /* Add space above the footer */
+}
+
+/* CatCard Component */
+.cat-card {
+  background: #fff; /* Set background color for the cat card */
+  border: 1px solid #ddd; /* Add a light border */
+  border-radius: 10px; /* Round the corners */
+  padding: 1rem; /* Add padding inside the card */
+  margin: 1rem; /* Add margin around the card */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add subtle shadow for depth */
+  transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.cat-card:hover {
+  transform: translateY(-5px); /* Move card up on hover */
+}
+
+.cat-card img {
+  width: 100%; /* Make images responsive */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Round image corners */
+}
+
+/* Button Styles */
+.button {
+  background-color: #4caf50; /* Set button background color */
+  color: white; /* Set button text color */
+  padding: 0.5rem 1rem; /* Add padding inside the button */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Round button corners */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  font-size: 1rem; /* Set button text size */
+}
+
+.button:hover {
+  background-color: #45a049; /* Darken button color on hover */
+}
+
+/* Form Styles */
+.form-container {
+  max-width: 500px; /* Set maximum width for the form */
+  margin: 2rem auto; /* Center the form horizontally */
+  padding: 2rem; /* Add padding inside the form */
+  background: #fff; /* Set background color for the form */
+  border-radius: 10px; /* Round form corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add subtle shadow for depth */
+}
+
+.form-container input,
+.form-container textarea {
+  width: 100%; /* Make inputs and textareas full width */
+  padding: 0.75rem; /* Add padding inside inputs and textareas */
+  margin-bottom: 1rem; /* Add space below inputs and textareas */
+  border: 1px solid #ccc; /* Add light border */
+  border-radius: 5px; /* Round corners of inputs and textareas */
+}
+
+.form-container button {
+  width: 100%; /* Make buttons full width */
+}
+
+/* Dashboard Styles */
+.dashboard {
+  padding: 2rem; /* Add padding inside the dashboard */
+}
+
+.dashboard .recommendations {
+  display: flex; /* Use flexbox for layout */
+  flex-wrap: wrap; /* Allow wrapping of items */
+  gap: 1rem; /* Add space between items */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .navbar a {
+    margin: 0 10px; /* Reduce margin for smaller screens */
+  }
+
+  .dashboard .recommendations {
+    flex-direction: column; /* Stack recommendations vertically on small screens */
+  }
+}

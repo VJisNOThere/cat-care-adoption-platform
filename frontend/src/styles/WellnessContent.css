@@ -1,0 +1,63 @@
+/* Styles for the wellness content section */
+.wellness-content {
+  padding: 20px; /* Adds padding inside the container */
+  text-align: center; /* Centers text within the container */
+}
+
+/* Styles for the main heading in the wellness section */
+.wellness-content h1 {
+  font-size: 2.5em; /* Sets the font size of the heading */
+  margin-bottom: 20px; /* Adds space below the heading */
+}
+
+/* Styles for the articles container */
+.articles {
+  display: flex; /* Uses flexbox layout */
+  flex-wrap: wrap; /* Allows articles to wrap onto multiple lines */
+  justify-content: center; /* Centers articles horizontally */
+  gap: 20px; /* Adds space between articles */
+}
+
+/* Styles for each article card */
+.article-card {
+  background-color: #fff; /* Sets background color to white */
+  padding: 20px; /* Adds padding inside each card */
+  width: 300px; /* Sets a fixed width for each card */
+  border-radius: 10px; /* Rounds the corners of the card */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
+  transition: transform 0.2s; /* Smooth transition effect on hover */
+}
+
+/* Hover effect for article cards */
+.article-card:hover {
+  transform: translateY(-10px); /* Moves the card up slightly on hover */
+}
+
+/* Styles for the article title */
+.article-card h2 {
+  font-size: 1.8em; /* Sets the font size of the article title */
+  margin-bottom: 10px; /* Adds space below the title */
+}
+
+/* Styles for the article description paragraph */
+.article-card p {
+  font-size: 1em; /* Sets the font size for the description */
+  margin-bottom: 10px; /* Adds space below the description */
+  color: #555; /* Sets a dark gray color for the text */
+}
+
+/* Styles for the "Read More" link */
+.read-more {
+  text-decoration: none; /* Removes the underline from the link */
+  color: #007bff; /* Sets the link color to a blue shade */
+  font-weight: bold; /* Makes the link text bold */
+}
+
+/* Styles for loading and error messages */
+.loading,
+.error {
+  font-size: 1.5em; /* Sets the font size for messages */
+  color: #007bff; /* Sets the color for the messages */
+  text-align: center; /* Centers the messages horizontally */
+  margin-top: 20px; /* Adds space above the messages */
+}

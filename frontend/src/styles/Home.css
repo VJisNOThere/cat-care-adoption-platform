@@ -1,0 +1,56 @@
+/* Styles for the main home container */
+.home {
+  padding: 20px; /* Add padding around the home section */
+}
+
+/* Header styles for the home section */
+.home-header {
+  text-align: center; /* Center align the header content */
+  margin-bottom: 30px; /* Space below the header */
+}
+
+/* Styles for the main title in the home header */
+.home-header h1 {
+  font-size: 2.5em; /* Font size for the title */
+  color: #333; /* Dark gray color for the title text */
+}
+
+/* Styles for the paragraph in the home header */
+.home-header p {
+  font-size: 1.2em; /* Font size for the subtitle or description */
+  color: #777; /* Lighter gray color for the subtitle text */
+}
+
+/* Loading message styles */
+.loading {
+  text-align: center; /* Center align the loading message */
+  font-size: 1.5em; /* Font size for the loading message */
+  color: #007bff; /* Bootstrap primary color for loading text */
+}
+
+/* Styles for featured cats and wellness content sections */
+.featured-cats, .wellness-content {
+  margin-bottom: 40px; /* Space below the featured cats and wellness content */
+}
+
+/* Header styles for featured cats and wellness content sections */
+.featured-cats h2, .wellness-content h2 {
+  font-size: 2em; /* Font size for the section titles */
+  color: #444; /* Dark gray color for the section titles */
+  margin-bottom: 20px; /* Space below the section titles */
+}
+
+/* Styles for the grid layout of cats */
+.cats-grid {
+  display: flex; /* Use flexbox for layout */
+  flex-wrap: wrap; /* Allow items to wrap onto the next line */
+  gap: 20px; /* Space between grid items */
+  justify-content: center; /* Center align the grid items */
+}
+
+/* Styles for the list of articles */
+.articles-list {
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Arrange items in a column */
+  gap: 20px; /* Space between article items */
+}
